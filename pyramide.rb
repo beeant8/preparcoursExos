@@ -5,6 +5,6 @@ puts "Voici la pyramide :"
 
 n = 1
 while n <= lines
-  puts ("* " * n).rjust(lines*2)
+  puts ("# " * n).rjust(lines*2)
   n += 1
 end
